@@ -1,0 +1,15 @@
+C:\Users\sam\source\repos\croatia\croatia\bin\Debug\croatia.exe.config
+C:\Users\sam\source\repos\croatia\croatia\bin\Debug\croatia.exe
+C:\Users\sam\source\repos\croatia\croatia\bin\Debug\croatia.pdb
+C:\Users\sam\source\repos\croatia\croatia\bin\Debug\croatia.xml
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.vbprojAssemblyReference.cache
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.Form1.resources
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.Resources.resources
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.vbproj.GenerateResource.cache
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.vbproj.CoreCompileInputs.cache
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.exe
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.xml
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.pdb
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.FormHelp.resources
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.Form3.resources
+C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.Form4.resources

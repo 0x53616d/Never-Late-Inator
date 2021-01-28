@@ -1,0 +1,123 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="p1link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://google.com</Value>
+    </Setting>
+    <Setting Name="p2link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://google.com</Value>
+    </Setting>
+    <Setting Name="p3link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://google.com</Value>
+    </Setting>
+    <Setting Name="p4link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://google.com</Value>
+    </Setting>
+    <Setting Name="p5link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://google.com</Value>
+    </Setting>
+    <Setting Name="p6link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://google.com</Value>
+    </Setting>
+    <Setting Name="p1stime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p2stime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p3stime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p4stime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p5stime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p6stime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p1endtime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p2endtime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p3endtime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p4endtime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p5endtime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="p6endtime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00:00 AM</Value>
+    </Setting>
+    <Setting Name="firstlaunch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="listen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="alwaysontop" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="keyphrase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Please Fill</Value>
+    </Setting>
+    <Setting Name="p1chatattendance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="p2chatattendance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="p3chatattendance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="p4chatattendance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="p5chatattendance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="p6chatattendance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="timetowait" Type="System.String" Scope="User">
+      <Value Profile="(Default)">300000</Value>
+    </Setting>
+    <Setting Name="chmessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sorry I took so long to type, it wasnt letting me open the chat box for some reason.</Value>
+    </Setting>
+    <Setting Name="mpcheck" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="mp1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="mp2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="mp3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="mp4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="mp5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="mp6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="fakelag" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="dolag" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
