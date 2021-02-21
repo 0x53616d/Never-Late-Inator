@@ -404,8 +404,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Sorry I took so long to type, it wasnt letting me open the chat box for some reas"& _ 
-            "on.")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Sorry I took so long to type, it wasnt letting me open the chat box.")>  _
         Public Property chmessage() As String
             Get
                 Return CType(Me("chmessage"),String)
@@ -520,6 +519,18 @@ Namespace My
             End Get
             Set
                 Me("dolag") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("false")>  _
+        Public Property lagged() As String
+            Get
+                Return CType(Me("lagged"),String)
+            End Get
+            Set
+                Me("lagged") = value
             End Set
         End Property
     End Class

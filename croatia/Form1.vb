@@ -43,6 +43,10 @@ Public Class Form1
 
         My.Settings.firstlaunch = False
 
+        If My.Settings.lagged = True Then
+            Button2.Text = "Stop Lagging"
+        End If
+
     End Sub
     Private Sub reco_RecognizeCompleted(ByVal sender As Object, ByVal e As System.Speech.Recognition.RecognizeCompletedEventArgs) Handles reco.RecognizeCompleted
 
@@ -268,7 +272,7 @@ Public Class Form1
         End If
     End Sub
     Public Sub sendattendance()
-        My.Computer.Keyboard.SendKeys(My.Forms.FormHelp.TextBox21.Text)
+        My.Computer.Keyboard.SendKeys(My.Settings.chmessage)
         Threading.Thread.Sleep(500)
         My.Computer.Keyboard.SendKeys("{enter}")
     End Sub
@@ -322,7 +326,7 @@ Public Class Form1
     Public Sub openchat()
         My.Computer.Keyboard.SendKeys("^%{c}")
         Threading.Thread.Sleep(1000)
-        'lol its really not that complex just didnt want to reuse lines a ton
+        'lol its really not that complex just didnt want to reuse lines a ton. Edit 2/20/21/ 8:13 PM: yeah as if I didn't do that already
     End Sub
 
 #End Region
@@ -442,4 +446,17 @@ Public Class Form1
         Form4.Hide()
     End Sub
 
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        If My.Settings.lagged = False Then
+            My.Settings.lagged = True
+            Shell("ipconfig /release")
+            Button2.Text = "Stop Lagging"
+            'Please do NOT use this as a video game lag switch. If you are looking for that I have an open source one with a built in keybind on my GitHub.
+        Else
+            My.Settings.lagged = False
+            Shell("ipconfig /renew")
+            Button2.Text = "Lag"
+        End If
+
+    End Sub
 End Class

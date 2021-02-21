@@ -90,7 +90,7 @@
       <Value Profile="(Default)">300000</Value>
     </Setting>
     <Setting Name="chmessage" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Sorry I took so long to type, it wasnt letting me open the chat box for some reason.</Value>
+      <Value Profile="(Default)">Sorry I took so long to type, it wasnt letting me open the chat box.</Value>
     </Setting>
     <Setting Name="mpcheck" Type="System.String" Scope="User">
       <Value Profile="(Default)">false</Value>
@@ -117,6 +117,9 @@
       <Value Profile="(Default)">false</Value>
     </Setting>
     <Setting Name="dolag" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="lagged" Type="System.String" Scope="User">
       <Value Profile="(Default)">false</Value>
     </Setting>
   </Settings>

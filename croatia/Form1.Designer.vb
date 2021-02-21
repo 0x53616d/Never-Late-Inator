@@ -35,6 +35,7 @@ Partial Class Form1
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Timer1
@@ -123,11 +124,21 @@ Partial Class Form1
         Me.Timer5.Enabled = True
         Me.Timer5.Interval = 500
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(657, 12)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(95, 22)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "Lag"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(656, 43)
+        Me.ClientSize = New System.Drawing.Size(765, 43)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.grammadd)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
@@ -153,4 +164,5 @@ Partial Class Form1
     Friend WithEvents Timer3 As Timer
     Friend WithEvents Timer4 As Timer
     Friend WithEvents Timer5 As Timer
+    Friend WithEvents Button2 As Button
 End Class
