@@ -11,5 +11,4 @@ C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.exe
 C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.xml
 C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.pdb
 C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.FormHelp.resources
-C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.Form3.resources
 C:\Users\sam\source\repos\croatia\croatia\obj\Debug\croatia.Form4.resources

@@ -6,7 +6,7 @@ Public Class Form1
     Dim WithEvents reco As New Recognition.SpeechRecognitionEngine
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If My.Settings.firstlaunch = True Then
-            MsgBox("Please fill in the Day Type box with 'odd only', 'even only', or 'all' for the program to work properly. Also be sure to open and fill the text boxes in the settings page or else it will not work")
+            MsgBox("Please fill in the Day Type box with 'odd only', 'even only', or 'all' for the program to work properly (you can aldo use individual class join options). Also be sure to open and fill the text boxes in the settings page or else it will not work")
         End If
 
         If My.Forms.FormHelp.TextBox19.Text = "" Then
@@ -34,12 +34,6 @@ Public Class Form1
         CheckBox1.Checked = My.Settings.alwaysontop
 
         CheckBox2.Checked = My.Settings.listen
-
-        Form3.Show()
-
-        Form3.WindowState = FormWindowState.Minimized
-
-        Form3.Hide()
 
         My.Settings.firstlaunch = False
 
@@ -72,22 +66,10 @@ Public Class Form1
 
                 End If
 
-
-
-
-
-
-
-
-
-
-
-
             Else
                 If InStr(e.Result.Text, My.Forms.FormHelp.TextBox19.Text) Then
                     If My.Forms.FormHelp.TextBox22.Text IsNot "" Then
                         If e.Result.Confidence > "0." + My.Forms.FormHelp.TextBox22.Text Then
-                            Form3.WindowState = FormWindowState.Maximized
                             My.Computer.Audio.Play("C:\Windows\Media\Windows Hardware Fail.wav")
                             Threading.Thread.Sleep(500)
                             My.Computer.Audio.Play("C:\Windows\Media\Windows Hardware Fail.wav")
@@ -102,11 +84,8 @@ Public Class Form1
                             Threading.Thread.Sleep(500)
                             My.Computer.Audio.Play("C:\Windows\Media\Windows Hardware Fail.wav")
                             Threading.Thread.Sleep(500)
-                            Form3.Hide()
-                            Form3.WindowState = FormWindowState.Minimized
                         End If
                     Else
-                        Form3.WindowState = FormWindowState.Maximized
                         My.Computer.Audio.Play("C:\Windows\Media\Windows Hardware Fail.wav")
                         Threading.Thread.Sleep(500)
                         My.Computer.Audio.Play("C:\Windows\Media\Windows Hardware Fail.wav")
@@ -121,8 +100,6 @@ Public Class Form1
                         Threading.Thread.Sleep(500)
                         My.Computer.Audio.Play("C:\Windows\Media\Windows Hardware Fail.wav")
                         Threading.Thread.Sleep(500)
-                        Form3.Hide()
-                        Form3.WindowState = FormWindowState.Minimized
                     End If
                 End If
             End If
@@ -326,14 +303,10 @@ Public Class Form1
     Public Sub openchat()
         My.Computer.Keyboard.SendKeys("^%{c}")
         Threading.Thread.Sleep(1000)
-        'lol its really not that complex just didnt want to reuse lines a ton. Edit 2/20/21/ 8:13 PM: yeah as if I didn't do that already
+        'lol its really not that complex just didnt want to reuse lines a ton. Edit 2/20/21 8:13 PM: yeah as if I didn't do that already
     End Sub
 
 #End Region
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs)
-        Form3.Show()
-    End Sub
 
     Private Sub gramadd_Click(sender As Object, e As EventArgs) Handles grammadd.Click
         reco.UnloadAllGrammars()

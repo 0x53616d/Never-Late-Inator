@@ -1,4 +1,5 @@
 ﻿Public Class FormHelp
+    Shared lname As String
     Public Sub Button1_Click(sender As Object, e As EventArgs)
         Me.Close()
     End Sub
@@ -40,6 +41,7 @@
         mp6.Checked = My.Settings.mp6
         CheckBox1.Checked = My.Settings.fakelag
         My.Settings.Reload()
+        lname = My.Forms.FormHelp.TextBox19.Text
     End Sub
 
     Public Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
@@ -84,8 +86,11 @@
         My.Settings.mp6 = mp6.Checked
         My.Settings.fakelag = CheckBox1.Checked
         My.Settings.Save()
+        If TextBox19.Text IsNot lname.ToString Then 'tostring shouldnt be needed but hey what the hell
+            MsgBox("Please relaunch the program to take effect. Most changes will take effect before relaunch, and you will not encounter any major errors or crashes if you do not restart the program.")
+            lname = TextBox19.Text
+        End If
     End Sub
-
     Private Sub mpcheck_CheckedChanged(sender As Object, e As EventArgs) Handles mpcheck.CheckedChanged
         If mpcheck.Checked = True Then
             My.Forms.Form1.Timer1.Stop()
